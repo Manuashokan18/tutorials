@@ -23,6 +23,61 @@ var c = a + b;
 //var c = a - b;
 //var c = a * b;
 //var c = a / b;
+//let and const
+//let a=10;
+//const a=15;
+
 document.write(a);
 document.write(b);
 document.write(c);
+
+//function
+function addFun(x,y) {
+    let a = x;
+    let b = y;
+    myFun();
+    
+    return(a + b);
+    
+}
+console.log(addFun(50,50));
+function myFun() {
+    console.log("completed");
+}
+
+
+//arrow function
+subFun =() => {
+   let a = 20;
+   let b = 10;
+   return(a - b);
+}
+console.log(subFun());
+
+//objects
+let user = {
+    firstName : 'Manu',
+    lastName : 'Ashokan'
+}
+console.log(user.lastName);
+
+//arrays
+let myArray = ["manu","ashokan"];
+console.log(myArray);
+console.log(myArray[0]);
+console.log(myArray[1]);
+
+//string methods
+let string = "ManuAshokan";
+console.log(string.length);
+console.log(string.indexOf("o"));
+console.log(string.slice(0,4)); 
+console.log(string.slice(4,11)); 
+
+//number methods
+let  n = "24";
+console.log(string.slice(0,4)); 
+
+
+
+
